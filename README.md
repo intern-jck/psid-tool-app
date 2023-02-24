@@ -1,11 +1,15 @@
 # PSID Lookup Tool V 1.0
 
-DELL/EMC 2022
+DELL/EMC 2023
 
-Justin C Kirk 2022
+Justin C Kirk 2023
 
 Fullstack app to handle CRUD operations for a database of NVME and MTC drives. 
 Deployed to a virtual machine running [openSUSE](https://www.opensuse.org/).
+
+
+<img src="./assets/psid-tool-main.png" width="800" alt="psid tool main png" title="Psid Tool">
+
 
 ## Parts:
 
