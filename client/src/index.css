@@ -1,0 +1,34 @@
+:root {
+  --font-color: black;
+  --font-size: large;
+  --input-font-size: large;
+  --font-family: 'Courier New', Courier, monospace;
+  --background-color: #fff;
+  --border-color: #ddd;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-size: 100%;
+  font-family: var(--font-family);
+  background-color: var(--background-color);
+}
+
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  cursor: pointer;
+}

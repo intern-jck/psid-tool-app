@@ -1,0 +1,94 @@
+.Drive {
+  border: 2px solid black;
+  margin: 0.25em;
+  padding: 0.25em;
+  /* height: 8em; */
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.drive-header {
+  /* border: 2px solid black; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.drive-header h3 {
+  margin: 0;
+}
+
+.drive-info {
+  /* border: 2px solid black; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* gap: 0.25em; */
+}
+
+.drive-info button {
+  width: 3em;
+  height: 3em;  
+}
+
+.drive-info label {
+  /* border: 4px solid green; */
+  width: 6em;
+  /* display: flsex; */
+  /* justify-content: baseline; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  font-weight: bold;
+  padding-left: 1em;
+  /* gap: 1em; */
+}
+
+.drive-info input {
+  /* border: 2px solid blue; */
+  width: 20em;
+}
+
+.drive-serial {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.drive-psid {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (orientation:landscape) and (max-width: 1024px){
+
+  .drive-serial {
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+  }
+
+}
+
+@media screen and (orientation:portrait) {
+
+  .drive-serial {
+    /* flex-direction: column; */
+    /* align-items: flex-start; */
+  }
+
+  .drive-info input {
+    border: 2px solid blue;
+    width: 100%;
+  }
+  
+}

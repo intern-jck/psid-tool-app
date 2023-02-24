@@ -1,0 +1,51 @@
+.DriveList {
+  width: 60vw;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-header {
+  border: 2px solid black;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list-tool-btns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.list-tool-btns span{
+  /* border: 2px solid black; */
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;  
+  align-items: center;
+  gap: 0.5em;
+}
+
+.list-content {
+  border: 2px solid black;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+@media screen and (orientation:landscape) and (max-width: 1024px){
+  .DriveList {
+    width: 100%;
+  }
+}
+
+@media screen and (orientation:portrait) {
+  .DriveList {
+    width: 100%;
+  }
+}
