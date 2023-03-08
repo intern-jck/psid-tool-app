@@ -7,7 +7,7 @@
     "start": "webpack --mode=development",
     "build": "webpack --mode=production",
     "client-dev": "webpack serve --open",
-    "server-dev": "npx nodemon server/src/app.js"
+    "server-dev": "npx nodemon server/app.js"
   },
   "keywords": [],
   "author": "",
